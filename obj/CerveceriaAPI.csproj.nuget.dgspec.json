@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ChillOutKet\\Dev\\cervezasApi\\CerveceriaAPI.csproj": {}
+    "C:\\Users\\jeronimo.romero\\Source\\Repos\\CerveceriaApi\\CerveceriaAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ChillOutKet\\Dev\\cervezasApi\\CerveceriaAPI.csproj": {
+    "C:\\Users\\jeronimo.romero\\Source\\Repos\\CerveceriaApi\\CerveceriaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ChillOutKet\\Dev\\cervezasApi\\CerveceriaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jeronimo.romero\\Source\\Repos\\CerveceriaApi\\CerveceriaAPI.csproj",
         "projectName": "CerveceriaAPI",
-        "projectPath": "C:\\Users\\ChillOutKet\\Dev\\cervezasApi\\CerveceriaAPI.csproj",
-        "packagesPath": "C:\\Users\\ChillOutKet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ChillOutKet\\Dev\\cervezasApi\\obj\\",
+        "projectPath": "C:\\Users\\jeronimo.romero\\Source\\Repos\\CerveceriaApi\\CerveceriaAPI.csproj",
+        "packagesPath": "C:\\Users\\jeronimo.romero\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeronimo.romero\\Source\\Repos\\CerveceriaApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ChillOutKet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jeronimo.romero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

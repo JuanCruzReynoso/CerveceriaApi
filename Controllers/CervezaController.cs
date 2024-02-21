@@ -8,8 +8,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CerveceriaAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class CervezaController : ControllerBase
     {
         private readonly ICervezaService _cervezaService;
@@ -31,7 +31,7 @@ namespace CerveceriaAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Cerveza>> Post([FromBody] Cerveza cerveza)
+        public async Task<ActionResult<Cerveza>> Post(Cerveza cerveza)
         {
             if (!ModelState.IsValid)
             {

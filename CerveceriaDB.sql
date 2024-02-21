@@ -1,3 +1,9 @@
+IF NOT EXISTS(SELECT * FROM sys.databases where name = 'Cerveceria')
+BEGIN
+	CREATE DATABASE [Cerveceria]
+END
+GO
+
 -- Marca Table
 USE [Cerveceria]
 GO
