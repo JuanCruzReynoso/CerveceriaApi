@@ -15,6 +15,17 @@ builder.Services.AddScoped<ICervezaService, CervezaService>();
 
 var app = builder.Build();
 
+// Enable CORS
+app.UseCors(options =>
+{
+    //Metodo para abilitar la api a ser consumida por una url en espcifico
+    //options.WithOrigins("http://your-application-domain.com");
+    //Metodo para abilitar la api a ser cosumida desde cualquier url
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
